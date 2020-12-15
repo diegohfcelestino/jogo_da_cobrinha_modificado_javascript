@@ -31,7 +31,7 @@ var square = (function() {
 	//End Get
 
 	function draw ( ) {
-		ctx.fillStyle = "#336633";
+		ctx.fillStyle = "green";
 		ctx.beginPath();
 		ctx.fillRect( x * size, y * size, size, size);			
 		ctx.closePath();

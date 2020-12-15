@@ -1,10 +1,14 @@
+#fundo{
+	background-color: rgb(203, 203, 248);
+}
+
 #container{
-	width: 650px;
-	height: 450px;
+	width: 1000px;
+	height: 500px;;
 	margin:0 auto; 
 	padding: 10px;        
-	text-align:left; /* "remédio" para o hack do IE */ 	
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+	text-align:left;	
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
 }
 
 #canvas{
@@ -18,6 +22,7 @@
 	text-align: center;
 }
 #divMenu{
+	margin-top: 20px;
 	background-color: #FFFFFF;
 }
 #divCanvas{

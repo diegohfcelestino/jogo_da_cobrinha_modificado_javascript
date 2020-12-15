@@ -248,12 +248,15 @@
 	function moveSnake () {
 		if (snake.getSelfCollision() == true) {
 			overGame ();
+			alert('Game over :(');
 		} else {
 			if (snake.getBody()[snake.getLeng() - 1].x >= ( (canvas.width / 8)) || snake.getBody()[snake.getLeng() - 1].x < 0 ) {
 				overGame ();
+				alert('Game over :(');
 			} else {
 				if (snake.getBody()[snake.getLeng() - 1].y >= ( (canvas.height / 8)) || snake.getBody()[snake.getLeng() - 1].y < 0 ) {
 					overGame ();
+					alert('Game over :(');
 				} else {
 					snake.move();
 				};//if
